@@ -1,0 +1,5 @@
+- Kundenstamm (kundenstamm): vorname[string/text], nachname[string/text], telefon[string/tel], email[string/email], strasse[string/text], hausnummer[string/text], plz[string/text], ort[string/text], standort[geo], notizen[string/textarea]
+- Monteure (monteure): monteur_vorname[string/text], monteur_nachname[string/text], monteur_telefon[string/tel], monteur_email[string/email], monteur_notizen[string/textarea]
+- Terminverwaltung (terminverwaltung): termin_datum[date/datetimeminute], auftragsart[lookup/radio], beschreibung[string/textarea], kunde[applookup/select], monteur[applookup/select], status[lookup/radio], bemerkungen[string/textarea]
+  → kunde links to app_id 6a43dc0ccfb23aec5c0f285d
+  → monteur links to app_id 6a43dc0f0c642509c50578ea

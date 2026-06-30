@@ -1,0 +1,27 @@
+{
+  "KundenstammDialog.tsx": {
+    "vorname": "z. B. Max",
+    "nachname": "z. B. Müller",
+    "email": "z. B. max@example.com",
+    "strasse": "z. B. Hauptstraße",
+    "hausnummer": "z. B. 42",
+    "plz": "z. B. 10115",
+    "ort": "z. B. Berlin",
+    "notizen": "Besonderheiten, Zufahrt, Ansprechpartner..."
+  },
+  "MonteureDialog.tsx": {
+    "monteur_vorname": "z. B. Thomas",
+    "monteur_nachname": "z. B. Schmidt",
+    "monteur_email": "z. B. thomas@example.com",
+    "monteur_notizen": "Qualifikationen, Verfügbarkeit, Besonderheiten..."
+  },
+  "TerminverwaltungDialog.tsx": {
+    "termin_datum": "Wann findet der Termin statt?",
+    "auftragsart": "z. B. Wartung, Reparatur",
+    "beschreibung": "Was muss gemacht werden? Geräte, Symptome, Wünsche...",
+    "kunde": "Welcher Kunde?",
+    "monteur": "Welcher Monteur?",
+    "status": "z. B. Offen, Erledigt",
+    "bemerkungen": "Zusätzliche Informationen, Zufahrtshinweise..."
+  }
+}

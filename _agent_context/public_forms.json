@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "kundenstamm",
+      "app_id": "6a43dc0ccfb23aec5c0f285d",
+      "path": "/rest/apps/6a43dc0ccfb23aec5c0f285d/records",
+      "allowed_fields": [
+        "vorname",
+        "nachname",
+        "telefon",
+        "email",
+        "strasse",
+        "hausnummer",
+        "plz",
+        "ort",
+        "standort",
+        "notizen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Kundenstamm — Formular"
+    },
+    {
+      "entity": "monteure",
+      "app_id": "6a43dc0f0c642509c50578ea",
+      "path": "/rest/apps/6a43dc0f0c642509c50578ea/records",
+      "allowed_fields": [
+        "monteur_vorname",
+        "monteur_nachname",
+        "monteur_telefon",
+        "monteur_email",
+        "monteur_notizen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Monteure — Formular"
+    },
+    {
+      "entity": "terminverwaltung",
+      "app_id": "6a43dc10e4117afe74f02ece",
+      "path": "/rest/apps/6a43dc10e4117afe74f02ece/records",
+      "allowed_fields": [
+        "termin_datum",
+        "auftragsart",
+        "beschreibung",
+        "status",
+        "bemerkungen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Terminverwaltung — Formular"
+    }
+  ]
+}

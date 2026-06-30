@@ -1,0 +1,22 @@
+{
+  "entities": {
+    "Kundenstamm": {
+      "placeholders_set": 8,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Reine Kontakt- und Stammdaten (Vorname, Nachname, Adresse, E-Mail, Notizen). Keine Number-Felder, keine Datums-Paare, keine applookup-Verkettungen mit Preisen — nichts berechenbar."
+    },
+    "Monteure": {
+      "placeholders_set": 4,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Reine Personalstammdaten (Vorname, Nachname, E-Mail, Notizen). Keine Preise, keine Arbeitsstunden, keine zeitbasierten Berechnungen — Stammdaten ohne Arithmetik."
+    },
+    "Terminverwaltung": {
+      "placeholders_set": 7,
+      "defaults_keys": ["termin_datum", "auftragsart", "status"],
+      "computed_keys": [],
+      "reason": "Termin-Entity mit Datum, Auftragsart (Wartung/Reparatur/Notdienst) und Status (Offen/Erledigt/Verschoben) als Klassifizierungsfelder. Ein einzelnes Datum (kein Paar), keine Number-Felder, keine Preise, keine Mengen — daher kein dateDiff, kein Lookup-Produkt möglich. Defaults für häufige Werte (heute, Wartung als Default-Auftragsart, Status Offen) gesetzt für schnellere Erfassung."
+    }
+  }
+}
